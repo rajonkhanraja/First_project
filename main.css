@@ -1,0 +1,44 @@
+
+.section {
+	background: #434;
+	height: 600px;
+	width: 1335px;
+	margin: auto;
+	margin-top: 25px;
+	box-sizing: border-box;
+	position: relative;
+	border-radius: 25px;
+	box-shadow: 0px 0px 15px #434;
+}
+.section img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 535px;
+	border: 3px solid #fff;
+}
+form {
+	margin-left: 470px;
+	padding-top: 10px;
+}
+input[type="text"], input[type="email"] {
+	width: 360px;
+	height: 33px;
+	background: transparent;
+	border-bottom: 2px solid green;
+	margin: 0px;
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.text {
+	width: 220px;
+	height: 32px;
+	background: transparent none repeat scroll 0% 0%;
+	border: 3px solid pink;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	margin-left: 66px;
+}

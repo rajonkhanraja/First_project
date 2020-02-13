@@ -1,0 +1,21 @@
+img {
+	height: 200px;
+	width: 200px;
+	margin-top: 18px;
+	margin-left: 522px;
+	border-radius: 50%;
+	border: 2px solid greenyellow;
+}
+.about {
+	margin-top: 12px;
+	padding: 24px;
+	font-size: 26px;
+	text-align: justify;
+	text-emphasis-style: initial;
+	color: blue;
+}
+#span{
+font-size:50px;
+color:red;
+
+}

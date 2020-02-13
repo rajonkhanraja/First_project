@@ -1,0 +1,170 @@
+*{box-sizing:border-box}
+body{
+margin:0px;
+padding:0px;
+font-family:sans-serif;
+font-size:18px;
+color:#454545;
+
+
+}
+.header_section {
+	width: 100%;
+	height: 100vh;
+	padding: 0px;
+	background: #454;
+	overflow: hidden;
+	background-image: url('images/apple-cup-desk-7974.jpg');
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#nav {
+ margin-top:10px;
+ float:right;
+ overflow:hidden;
+ width:100%;
+ 
+}
+#nav ul {
+	float: right;
+	margin-right: 67px;
+}
+#nav ul li{
+list-style-type:none;
+display:inline;
+
+}
+#nav ul li a {
+	margin: 10px;
+	padding: 12px 12px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	font-size:20px;
+}
+#nav ul li a:hover{
+background:green;
+border-radius:5px;
+
+}
+.sub-menu{
+display:none;
+
+}
+
+
+#showcase{
+padding-top:5px;
+ width:100%;
+ min-height:400px;
+ text-align:center;
+
+}
+#showcase .article{
+   padding-top:200px;
+
+}
+#showcase .article h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+
+}
+#showcase .article p {
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+	margin-top: 0px;
+	text-transform:uppercase;
+}
+#about_section {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 50px;
+	height: 420px;
+}
+#about_section .section11 {
+	background-image: url('images/section.jpg');
+	width: 40%;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	float: right;
+	margin-top: 46px;
+	margin-right:20px;
+}
+.about{
+font-size:20px;
+color:#666;
+margin-top:50px;
+padding:5px ;
+width:55%;
+float:left;
+
+
+
+}
+.about h1 {
+	color: #333;
+	text-align: center;
+	margin-top: 0px;
+	font-weight: 400;
+	border-bottom: 1px dashed #333;
+}
+.about p{
+  color:#333;
+  font-size:16px;
+  text-align:justify;
+  padding-left:20px;
+}
+.section1{
+font-size:20px;
+background-color:#666;
+width:30%;
+height:300px;
+text-align:left;
+font-size:20px;
+float:right;
+margin-top:20px;
+margin-right:20px
+}
+.form {
+	width: 360px;
+	margin-top: 36px;
+	margin-left: 50px;
+
+}
+input[type="text"], input[type="email"] {
+	width: 348px;
+	height: 33px;
+	background: transparent;
+	border-bottom: 2px solid green;
+	margin: 0px;
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.text{
+    width: 220px;
+	height: 32px;
+	background: transparent none repeat scroll 0% 0%;
+	border: 3px solid pink;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	margin-left: 66px;
+
+
+}
+.submit {
+	font-size: 18px;
+	margin-top: 7px;
+}
+
